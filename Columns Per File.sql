@@ -25,7 +25,8 @@
 --	where ft.id = 1
 
 select * from column_per_file
-
+select * from file_type
+	
 alter procedure columnNamePerFile (@fileTypeName nvarchar(100))
 as
 begin
