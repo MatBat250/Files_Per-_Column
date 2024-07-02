@@ -24,6 +24,8 @@
 --	inner join [column] c on c.id = cpf.column_id 
 --	where ft.id = 1
 
+select * from column_per_file
+
 alter procedure columnNamePerFile (@fileTypeName nvarchar(100))
 as
 begin
